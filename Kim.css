@@ -46,6 +46,7 @@ table {
   background-color:rgba(42,90,157,1.00);
   text-align: center;
   top:50vh;
+
   
   margin: auto;
   width: 80%;
@@ -114,8 +115,8 @@ th{
   color: #ddd;
   margin: 100px;
   position: absolute;
-  left: 107px;
-  top: 494px;
+  
+  
   overflow: visible;
   width: 139px;
   white-space: nowrap;
@@ -126,7 +127,7 @@ th{
   font-size: 30px;
   color:whitesmoke;
   margin: auto;
-  right: 107px;
+  
   position:absolute;
 }
   
