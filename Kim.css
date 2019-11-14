@@ -116,7 +116,7 @@ th{
   margin: 100px;
   position: absolute;
   
-  
+  top: 1vh;
   overflow: visible;
   width: 139px;
   white-space: nowrap;
