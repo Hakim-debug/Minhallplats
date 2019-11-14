@@ -148,7 +148,7 @@ function showbutton(){
 document.getElementById("tillbaka").style.display="none";
 document.getElementById("hide").style.display="block";
 document.getElementById("real").style.display="none";
-document.getElementById("real").style.display= "block";
+/* document.getElementById("real").style.display= "block"; */
 } 
    
 
