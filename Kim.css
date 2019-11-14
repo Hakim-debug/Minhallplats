@@ -45,6 +45,7 @@ table {
   position: relative;
   background-color:rgba(42,90,157,1.00);
   text-align: center;
+  top:50vh;
   
   margin: auto;
   width: 80%;
