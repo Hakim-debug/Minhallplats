@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Min Hållplats</title>
+   <script src="Java.js"></script>
+  <!-- <link rel="kim.png"/> -->
+    <link rel="stylesheet" type="text/css" href="Kim.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="Backgrundsbild" onload="getsiteId(); setInterval('getsiteId()',30000)">
+
+
+ 
+
+   <nav class="buttom">
+      <a href="https://maps.google.se" class="k">Goggel Maps</a>
+      <a href="https://sl.se/#/Travel/SearchTravelByDestinationPosition/Husby%20(Stockholm)/Liljeholmstorget%20Galleria/59.309488/18.022338/9301/2019-11-11%252009_00/arrive/sv/null/null/2,8,1,4,96,/null/null/null/null/null/false/null/0/0/null/false/0/,0/0/,0/normal/Sl" class="buss">info</a>
+      <a href="https://sl.se/sv/reseinfo/" class="Tidtabell">Tidtabell</a>
+    
+    </nav> 
+    <br>
+    
+ 
+   
+    <div class="container" id="hide">
+        <strong class="S"> Sök Resa </strong> 
+    
+
+     <aside> </aside>
+     <button class= " P " onclick="getLocation()">Gå om</button> 
+
+
+
+     <input class="box1"
+     type="number"
+     id="stånd"
+     placeholder="Gångavstånd"/>
+     
+
+
+
+     <input type="text" id="info"  placeholder="Station">
+    <br>
+
+     <input type="button" onclick="getsiteId()" value="Hitta" class="H"/> 
+    
+
+
+ 
+
+    <div id="information"></div>
+    
+
+
+
+    <form>
+
+        <input class="checkbox" type="radio" name="check" id="Metros"  />
+        <label for="Metros" class="Tu">Tunnelbana</label> <br />
+
+        <input class="checkbox" type="radio" name="check" id="buses" />
+        <label for="buses" class="Bus">Bussar</label> <br/>
+
+      </form>
+      
+    
+    <div id="siteid"></div>
+    </div>
+  
+    <table id="real">
+      <th>Linje</th>
+      <th>Mot</th>
+      <th>Gå om</th>
+    <th> Nästa avgång </th>
+  </table>
+ 
+
+<input type="button" onclick="showbutton()" value="tillbaka" id="tillbaka" class="tk">
+ 
+
+
+
+  
+
+   
+
+  
+</body>
+</html>

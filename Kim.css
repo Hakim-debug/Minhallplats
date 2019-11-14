@@ -1,0 +1,200 @@
+body{
+  background-color: whitesmoke;
+  }
+
+ 
+.Backgrundsbild{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    padding: 32px;
+     margin: auto;
+    border-radius: 10px;
+    background-image: url("stockholm.jpg"); 
+     background-attachment: fixed; 
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center; 
+    background-position: bottom center;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: white;}
+
+table {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  border-collapse: collapse;
+  color:whitesmoke;
+  position: relative;
+  background-color:rgba(42,90,157,1.00);
+  text-align: center;
+  
+  margin: auto;
+  width: 80%;
+ position: absolute; 
+ background-attachment: fixed;
+	
+    white-space: nowrap; 
+     white-space: normal;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+     font-size: 30px;
+     
+    
+}
+
+
+td,
+th{
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+  
+  
+}
+
+.tk{
+  background-color:greenyellow;
+  border: 1px solid whitesmoke;
+  border-radius: 2vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100px;
+  color:black;
+  margin: 100px;
+  margin: auto;
+  
+}
+
+.H{
+ width: 100;
+ height: 100;
+ padding: 50px;
+ border-radius: 2px;
+ background-color: rgba(42,90,157,1.00);
+ color: #ddd;
+ 
+ position: absolute;
+ bottom: 100px;
+ left: 440px;
+ /*  width: 139px; */
+ 
+/*  */
+}
+
+#tillbaka{
+  display: none;
+  /* background-color: beige; */
+  background-color:rgba(42,90,157,1.00);
+  border: 1px solid whitesmoke;
+  border-radius: 2vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100px;
+  color: #ddd;
+  margin: 100px;
+  position: absolute;
+  left: 107px;
+  top: 494px;
+  overflow: visible;
+  width: 139px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color:whitesmoke;
+  margin: auto;
+  right: 107px;
+  position:absolute;
+}
+  
+ #siteid{
+  display: none;
+} 
+
+.real{
+ float: right;
+
+}
+
+
+.checkbox{
+  border: 1px solid black;
+  border-radius: 2vh;
+  position: relative;
+  float: left;
+   overflow: visible;
+  white-space: nowrap;
+  /* text-align: center;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  display: grid;
+  float:left;  */
+ 
+}
+.Tu{
+color: blue;
+float: left;
+
+}
+
+.P{
+  color: blue;
+}
+
+.Bus{
+  color: red;
+  
+  float:left;
+}
+ 
+
+.Tidtabell{
+  color: whitesmoke;
+}
+
+
+.k{
+  color:whitesmoke;
+  float: left;
+}
+.buss{
+  color: whitesmoke;
+  float: right;
+}
+.S{
+  color: whitesmoke;
+  font-size: 20px;
+  margin: auto;
+
+}
+
+.nere{
+  position: sticky;
+}
+/* @media only screen and (max-width: 768px){
+  #formular {
+  width: 90%); */

@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+ <html>
+  <head>
+    <style>
+      #map {
+        width: 100%;
+        height: 600px;
+        background-color: grey;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <strong>Google Maps</strong>
+    
+    <div id="map"></div>
+
+   
+    <script>
+// 
+//initiera och lägg till kartan
+function initMap() {
+  // 
+//Platsen för Uluru
+  var uluru = {lat: 59.308444599999994, lng: 18.026873};
+  // Kartan, centrerad vid Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4,zoomControl: false, center: uluru});
+  // Markören, placerad vid Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+  var contentString = "Liljeholmen T-bana"; 
+
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+    title: 'Uluru (Ayers Rock)'
+  });
+  marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
+}
+
+   </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm3g0eo_lAAGkW_D5H6dNEdVt6iTHIUyw&callback=initMap">
+    </script>
+  </body>
+
+  </html>
+
+
